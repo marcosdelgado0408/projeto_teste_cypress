@@ -1,0 +1,88 @@
+body{
+
+  font-family: Arial;
+  background-color: aliceblue;
+  padding: 30px;
+  color: black;
+  background-image: url('./img/background.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.app{
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: azure;
+  padding: 20px 30px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+.completar{
+  background-color: green;
+}
+
+.deletar{
+  background-color: red;
+}
+
+
+button{
+  background-color: darkcyan;
+  color:white;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover{
+  opacity: 1;
+}
+
+.todolist{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #555;
+}
+
+.todo{
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.357);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.tarefa-form{
+  padding-bottom: 1.5rem;
+}
+
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 100%
+}
